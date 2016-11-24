@@ -1,4 +1,9 @@
 #include "Quaternion.h"
+//Lab 5
+//Daryl keogh
+//Student ID: C00207452
+//Description: Converting the 3 classes (Matrix3, Quaternion & Vector3) to C++ and testing their using by multiplying each type by the appropriate values.
+//Time Spent: 2 Hours
 
 //Constructors
 Quaternion::Quaternion(double _w, double _x, double _y, double _z) :

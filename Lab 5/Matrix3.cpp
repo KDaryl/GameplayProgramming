@@ -1,6 +1,9 @@
 #include "Matrix3.h"
 //Lab 5
-//Daryl Keogh
+//Daryl keogh
+//Student ID: C00207452
+//Description: Converting the 3 classes (Matrix3, Quaternion & Vector3) to C++ and testing their using by multiplying each type by the appropriate values.
+//Time Spent: 2 Hours
 
 //Constructors
 Matrix3::Matrix3() :

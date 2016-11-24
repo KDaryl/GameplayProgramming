@@ -2,7 +2,9 @@
 
 //Daryl keogh
 //Lab 3
-//Drawing different types of primitives using the Function keys (F1 -> F10)
+//Student ID: C00207452
+//Description: Drawing different types of primitives by holding down the Function keys (F1 -> F10)
+//Time Spent: 2 hours
 
 Game::Game() : window(VideoMode(800, 600), "OpenGL")
 {
@@ -20,8 +22,6 @@ void Game::run()
 	Event event;
 
 	while (isRunning){
-
-		cout << "Game running..." << endl;
 
 		while (window.pollEvent(event))
 		{
@@ -48,34 +48,65 @@ void Game::initialize()
 
 void Game::update()
 {
-	cout << "Update up" << endl;
+	
 }
 
 void Game::draw()
 {
-	cout << "Draw up" << endl;
+	system("CLS");
+
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-	
+
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::F1))
+	{
+		std::cout << "Drawing Points";
 		drawPoints();
+	}
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::F2))
+	{
+		std::cout << "Drawing Line";
 		drawLine();
+	}
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::F3))
+	{
+		std::cout << "Drawing Line Strip";
 		drawLineStrip();
+	}
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::F4))
+	{	
+		std::cout << "Drawing Line Loop";
 		drawLineLoop();
+	}
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::F5))
+	{
+		std::cout << "Drawing Triangle";
 		drawTriangle();
+	}
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::F6))
+	{
+		std::cout << "Drawing Triangle Strip";
 		drawTriangleStrip();
+	}
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::F7))
+	{
+		std::cout << "Drawing Triangle Fan";
 		drawTriangleFan();
+	}
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::F8))
+	{
+		std::cout << "Drawing Quad";
 		drawQuad();
+	}
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::F9))
+	{
+		std::cout << "Drawing Quad Strip";
 		drawQuadStrip();
+	}
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::F10))
+	{
+		std::cout << "Drawing Polygon";
 		drawPolygon();
+	}
 
 	window.display();
 }
@@ -97,6 +128,7 @@ void Game::drawPoints()
 	glEnd();
 }
 
+//Draws a line between one vertex to another
 void Game::drawLine()
 {
 	glLineWidth(15);
@@ -108,6 +140,7 @@ void Game::drawLine()
 	glEnd();
 }
 
+//Connects each vertex together
 void Game::drawLineStrip()
 {
 	glLineWidth(15);
@@ -120,6 +153,7 @@ void Game::drawLineStrip()
 	glEnd();
 }
 
+//Draws a "loop" by connecting th elast vertex drawing to the first one
 void Game::drawLineLoop()
 {
 	glLineWidth(15);
@@ -133,6 +167,7 @@ void Game::drawLineLoop()
 	glEnd();
 }
 
+//Draws a triangle using 3 vertices
 void Game::drawTriangle()
 {
 	glBegin(GL_TRIANGLES);
@@ -144,6 +179,7 @@ void Game::drawTriangle()
 	glEnd();
 }
 
+//Connects triangles together after every 3rd vertex
 void Game::drawTriangleStrip()
 {
 	glBegin(GL_TRIANGLE_STRIP);
@@ -159,6 +195,7 @@ void Game::drawTriangleStrip()
 	glEnd();
 }
 
+//Draws a triangle in which every 2
 void Game::drawTriangleFan()
 {
 	glBegin(GL_TRIANGLE_STRIP);
@@ -173,6 +210,7 @@ void Game::drawTriangleFan()
 	glEnd();
 }
 
+//Draws a four sided shape using 4 vertices
 void Game::drawQuad()
 {
 	glBegin(GL_QUADS);
@@ -197,6 +235,7 @@ void Game::drawQuadStrip()
 	glEnd();
 }
 
+//Draws a polygon which is a shape made up with as many vertices as you wish
 void Game::drawPolygon()
 {
 	glBegin(GL_POLYGON);

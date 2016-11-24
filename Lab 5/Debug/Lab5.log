@@ -1,4 +1,6 @@
-﻿  Main.cpp
-g:\gameplay programming\labs\lab 5\main.cpp(12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-  Lab5.vcxproj -> G:\Gameplay Programming\Labs\Lab 5\Debug\Lab5.exe
-  Lab5.vcxproj -> G:\Gameplay Programming\Labs\Lab 5\Debug\Lab5.pdb (Partial PDB)
+﻿  Matrix3.cpp
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  Main.cpp
+  Lab5.vcxproj -> E:\Gameplay Programming\Labs\Labs\Lab 5\Debug\Lab5.exe
+  Lab5.vcxproj -> E:\Gameplay Programming\Labs\Labs\Lab 5\Debug\Lab5.pdb (Partial PDB)

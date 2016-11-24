@@ -1,0 +1,6 @@
+﻿  Main.cpp
+  Game.cpp
+e:\gameplay programming\labs\labs\lab 4\sfmlopengl\game.cpp(66): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  Generating Code...
+  LINK : E:\Gameplay Programming\Labs\Labs\Lab 4\Debug\SFMLOpenGL.exe not found or not built by the last incremental link; performing full link
+  SFMLOpenGL.vcxproj -> E:\Gameplay Programming\Labs\Labs\Lab 4\Debug\SFMLOpenGL.exe

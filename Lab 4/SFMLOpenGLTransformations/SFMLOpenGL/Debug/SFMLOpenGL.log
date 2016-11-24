@@ -1,3 +1,0 @@
-﻿  Game.cpp
-g:\gameplay programming\labs\lab 4\sfmlopengltransformations\sfmlopengl\game.cpp(66): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-  SFMLOpenGL.vcxproj -> G:\Gameplay Programming\Labs\Lab 4\SFMLOpenGLTransformations\Debug\SFMLOpenGL.exe
