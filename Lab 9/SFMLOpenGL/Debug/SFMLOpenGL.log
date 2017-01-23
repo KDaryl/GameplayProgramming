@@ -1,0 +1,11 @@
+﻿  Main.cpp
+  Game.cpp
+c:\users\c00207452\desktop\lab 9\sfmlopengl\game.cpp(185): warning C4244: 'initializing': conversion from 'float' to 'unsigned int', possible loss of data
+c:\users\c00207452\desktop\lab 9\sfmlopengl\game.cpp(208): warning C4244: 'initializing': conversion from 'float' to 'unsigned int', possible loss of data
+  Generating Code...
+  SFMLOpenGL.vcxproj -> C:\Users\c00207452\Desktop\Lab 9\Debug\SFMLOpenGL.exe
+  Invalid number of parameters
+  Invalid number of parameters
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: The command "xcopy H:\Games\SFML-2.3.2\\bin C:\Users\c00207452\Desktop\Lab 9\Debug\ /C /Y
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: xcopy C:\glew-1.13.0\bin\Release\Win32 C:\Users\c00207452\Desktop\Lab 9\Debug\ /C /Y
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: :VCEnd" exited with code 4.
